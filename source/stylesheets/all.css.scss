@@ -1,0 +1,126 @@
+@import "normalize";
+
+$brand-primary: #981A21;
+
+@import "bootstrap";
+@import "font-awesome";
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile-first views */
+header,
+.marketing,
+footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+header {
+  border-bottom: 1px solid #e5e5e5;
+
+  ul {
+    @extend .nav;
+    @extend .nav-pills;
+    @extend .pull-right;
+  }
+
+  h3 {
+    @extend .text-muted;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+  }
+}
+/* Make the masthead heading the same height as the navigation */
+
+
+/* Custom page footer */
+footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+
+  .disclaimer {
+    width: 25%;
+    @extend .pull-left;
+  }
+
+  .copyright {
+    width: 25%;
+    @extend .pull-right;
+  }
+}
+
+.masthead {
+  @extend .jumbotron;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+
+  .sign-up {
+    @extend .btn;
+    @extend .btn-large;
+    @extend .btn-primary;
+    font-size: 21px;
+    padding: 14px 24px;
+  }
+}
+
+/* Main marketing message and sign up button */
+
+/* Supporting marketing content */
+section.marketing {
+  @extend .row;
+  margin: 40px 0;
+
+  .column {
+    @extend .col-lg-6;
+  }
+
+  ul + h4 {
+    margin-top: 28px;
+  }
+
+  ul {
+    padding-left: 0px;
+    list-style-type: none;
+
+    a {
+      @extend .btn;
+      @extend .btn-xs;
+
+      i {
+        margin-right: 0.5em;
+      }
+    }
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  header,
+  section.marketing,
+  footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .masthead {
+    border-bottom: 0;
+  }
+}
