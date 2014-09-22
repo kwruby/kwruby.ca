@@ -10,7 +10,6 @@ Then execute the following:
 3. and follow the instructions for connecting
 
 Backlog
-<<<<<<< HEAD
 -------
 * https://github.com/feedreader/pluto
 	- static ruby planet generator
@@ -25,3 +24,20 @@ Backlog
 	- middleman-event module
 * add the logo to the site
 	- one on its way from [Blake Stevenson](https://twitter.com/blakestevenson)( [Dribble](http://dribbble.com/blakestevenson) )
+* created a linked in group
+* add links to other locations on the web to the landing page
+	- meetup
+	- twitter
+	- github
+	- rubyusergroups
+	- linkedin
+
+Icebox
+------
+* trace the logo into an SVG file
+
+Sites for Inspiration
+---------------------
+* http://www.seattlerb.org/
+* http://ottawaruby.ca/
+
