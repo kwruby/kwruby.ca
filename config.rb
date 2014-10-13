@@ -58,6 +58,12 @@ configure :build do
   activate :minify_javascript
   activate :asset_hash
 
+  activate :favicon_maker, icons: {
+    '_favicon_template.png' => [
+      { icon: 'favicon.ico', size: '64x64,32x32,24x24,16x16' }
+    ]
+  }
+
   # Use relative URLs
   # activate :relative_assets
 

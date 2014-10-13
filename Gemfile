@@ -18,3 +18,5 @@ end
 gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass', branch: '3'
 gem 'font-awesome-middleman'
 gem 'middleman-blog'
+
+gem 'middleman-favicon-maker', '~> 3.7'
