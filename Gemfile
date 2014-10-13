@@ -19,4 +19,5 @@ gem 'bootstrap-sass',          '~> 3.2.0.1'
 gem 'font-awesome-middleman'
 gem 'middleman-blog'
 
+gem 'middleman-deploy',        '~> 0.3.0'
 gem 'middleman-favicon-maker', '~> 3.7'
