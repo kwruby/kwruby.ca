@@ -2,7 +2,7 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
-gem "middleman", "~>3.1.4"
+gem "middleman", "~>3.3.5"
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
@@ -15,7 +15,7 @@ platforms :mri_18 do
   gem "ruby18_source_location"
 end
 
-gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass', branch: '3'
+gem 'bootstrap-sass',          '~> 3.2.0.1'
 gem 'font-awesome-middleman'
 gem 'middleman-blog'
 
