@@ -11,9 +11,11 @@ Then execute the following:
 
 Backlog
 -------
-* https://github.com/feedreader/pluto
-	- static ruby planet generator
-	- how to integrate this with a middleman site?
+* planet aggregation of member feeds (blog/twitter/other?)
+	- static generator
+	- share templates with middleman
+	- https://github.com/feedreader/pluto
+	- https://github.com/pote/planet.rb
 * http://rubyusergroups.org/
 	- get KWRuby into the list
 	- their site also needs some help with its map
@@ -40,4 +42,4 @@ Sites for Inspiration
 ---------------------
 * http://www.seattlerb.org/
 * http://ottawaruby.ca/
-
+* http://vienna-rb.at/
