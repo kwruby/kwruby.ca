@@ -16,7 +16,7 @@ platforms :mri_18 do
 end
 
 gem 'bootstrap-sass',          '~> 3.2.0.1'
-gem 'font-awesome-middleman'
+gem 'font-awesome-middleman',  '~> 1.0.1'
 gem 'middleman-blog'
 
 gem 'middleman-deploy',        '~> 0.3.0'
