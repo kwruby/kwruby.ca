@@ -1,16 +1,16 @@
 = wrap_layout :bare do
-  %header
+  %nav
+    .vcard
+      %a.url(href='/')
+        %img.photo(src='/logo/current.png')
+        %span.org KWRuby
     %ul
-      %li= link_to 'Home', '/'
       %li
         %a(href='http://github.com/kwruby' rel='me')
           %i.icon-github
       %li
         %a(href='https://twitter.com/kwrubydev' rel='me')
           %i.icon-twitter
-    %ul.local
-
-    %h3.text-muted KW Ruby Developers
 
   = yield
 

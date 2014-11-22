@@ -24,24 +24,37 @@ footer {
   padding-right: 15px;
 }
 
-/* Custom page header */
-header {
-  border-bottom: 1px solid #e5e5e5;
+nav {
+  @extend .navbar;
+  @extend .navbar-default;
+
+  .vcard {
+    @extend .navbar-header;
+
+    a.url {
+      @extend .navbar-brand;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 5px;
+    }
+
+    img.photo {
+      @extend .img-rounded;
+    }
+  }
+
+  img {
+    height: ($navbar-height - 10);
+  }
 
   ul {
     @extend .nav;
-    @extend .nav-pills;
-    @extend .pull-right;
-  }
-
-  h3 {
-    @extend .text-muted;
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 40px;
-    padding-bottom: 19px;
+    @extend .navbar-nav;
+    @extend .navbar-right;
+    padding-right: 15px;
   }
 }
+
 /* Make the masthead heading the same height as the navigation */
 
 

@@ -59,7 +59,7 @@ configure :build do
   activate :asset_hash
 
   activate :favicon_maker, icons: {
-    '_favicon_template.png' => [
+    'logo/current.png' => [
       { icon: 'favicon.ico', size: '64x64,32x32,24x24,16x16' }
     ]
   }
