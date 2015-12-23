@@ -7,4 +7,4 @@ title: Companies Using Ruby in Waterloo
 * [eSentire](https://www.esentire.com/)
 * [PrintChomp](https://www.printchomp.com/)
 * [Shopify](https://www.shopify.ca/)
-* [Sweettooh](https://www.sweettoothrewards.com/)
+* [Sweet Tooth](https://www.sweettoothrewards.com/)
