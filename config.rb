@@ -79,5 +79,14 @@ activate :deploy do |deploy|
   deploy.clean        = true
 end
 
+with_layout :wiki do
+  page '/wiki/*'
+end
+
+set :markdown_engine, :redcarpet
+set :markdown, fenced_code_blocks: true, autolink: true, with_toc_data: true, tables: true
+activate :syntax
+set :haml, { ugly: true }
+
 activate :directory_indexes
 set :haml, { ugly: true }

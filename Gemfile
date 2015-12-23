@@ -9,6 +9,8 @@ gem "middleman-livereload", "~> 3.1.0"
 
 gem 'bootstrap-sass',          '~> 3.2.0.1'
 gem 'font-awesome-middleman',  '~> 1.0.1'
-gem 'middleman-blog'
+gem 'middleman-blog',          '~> 3.5.3'
+gem 'middleman-syntax',        '~> 2.0.0'
+gem 'redcarpet',               '~> 3.1.2'
 gem 'middleman-deploy',        '~> 0.3.0'
 gem 'middleman-favicon-maker', '~> 3.7'
