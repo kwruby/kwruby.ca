@@ -11,5 +11,6 @@ title: Rubyists in Waterloo
 * [Jesse McGinnis](https://jcmcginnis.com/)
 * [Josh Teeter](http://joshteeter.com/)
 * [Kamil Tusznio](https://twitter.com/ktusznio/)
+* [Matt Haliday](http://matthalliday.ca/)
 * [Nick Mulder](https://about.me/nickmulder/)
 * [Ralph Janke](https://twitter.com/RalphJanke)
