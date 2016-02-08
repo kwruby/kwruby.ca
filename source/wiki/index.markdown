@@ -12,6 +12,7 @@ meetings or by members:
 * [Eloquent Ruby](http://eloquentruby.com/) by [Russ Olsen](http://russolsen.com/)
 * [Ruby Rogues podcast](https://devchat.tv/ruby-rogues)
 * [Bike Shed podcast](http://bikeshed.fm/18)
+* [Contestoga College](http://www.conestogac.on.ca) has a [continuing education](http://www.conestogac.on.ca/continuing-education/) course [PROG1190 - Ruby I](https://studentportal.conestogac.on.ca/StudentPortal/Default.aspx?mgid=0&smid=5&ssmid=0&Key=PROG1190&CRSId=25819)
 
 Pages
 =====
