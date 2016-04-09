@@ -14,3 +14,4 @@ title: Rubyists in Waterloo
 * [Matt Haliday](http://matthalliday.ca/)
 * [Nick Mulder](https://about.me/nickmulder/)
 * [Ralph Janke](https://twitter.com/RalphJanke)
+* [Simon de Boer](https://ca.linkedin.com/in/simondeboer)
