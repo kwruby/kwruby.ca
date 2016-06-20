@@ -17,3 +17,4 @@ title: Rubyists in Waterloo
 * [Nick Mulder](https://about.me/nickmulder/)
 * [Ralph Janke](https://twitter.com/RalphJanke)
 * [Simon de Boer](https://ca.linkedin.com/in/simondeboer)
+* [Vadim Brodsky](https://www.vadimbrodsky.com/)

@@ -3,6 +3,7 @@ title: Companies Using Ruby in Waterloo
 ---
 
 * [Boltmade](http://www.boltmade.com/)
+* [Crankworks](https://crankworks.ca/)
 * [Demeure](https://www.demeure.com/)
 * [eSentire](https://www.esentire.com/)
 * [InTheChat](http://inthechat.com/)
