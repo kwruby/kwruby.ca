@@ -12,6 +12,7 @@ title: Rubyists in Waterloo
 * [Jesse McGinnis](https://jcmcginnis.com/)
 * [Josh Teeter](http://joshteeter.com/)
 * [Kamil Tusznio](https://twitter.com/ktusznio/)
+* [Kris Braun](https://twitter.com/KrisABraun)
 * [Marco Imperatore](https://ca.linkedin.com/in/marcoimperatore)
 * [Matt Haliday](http://matthalliday.ca/)
 * [Nick Mulder](https://about.me/nickmulder/)
