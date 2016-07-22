@@ -1,13 +1,27 @@
 kwruby.ca website
 =================
 
+## Development
+
 To run the site locally you will need [Ruby](https://www.ruby-lang.org/en/) and [Bundler](http://bundler.io/) installed.
 
 Then execute the following:
 
-1. bundle install
-2. bundle exec middleman server
+1. `bundle install`
+2. `bundle exec middleman server`
 3. and follow the instructions for connecting
+
+## Testing
+
+1. `bundle install`
+2. `bundle exec rspec`
+
+## Build for deployment
+
+1. `bundle install`
+2. `bundle exec middleman build`
+3. Results in build
+
 
 Backlog
 -------
