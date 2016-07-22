@@ -5,14 +5,18 @@ title: KW Ruby Developers
 %section.hero
   .side-image
     .side-image-content
-      %h1.hero__title
-        Dedicated to learning and sharing about <a href="http://ruby-lang.org">Ruby</a>
-      %h2#skill
-        All skill levels are welcome.
-      %h3
-        We meet once a month for a workshop, training session, or discussion.
-      %form(action="http://www.meetup.com/kw-ruby-on-rails/")
-        %input{type: "submit", value: "Join us!", class: "hero__link"}
+      .flex-wrapper
+        .flex-left
+          %i.devicon-ruby-plain
+        .flex-right
+          %h1.hero__title
+            Dedicated to learning and sharing about <a href="http://ruby-lang.org">Ruby</a>
+          %h2#skill
+            All skill levels are welcome.
+          %h3
+            We meet once a month for a workshop, training session, or discussion.
+          %form(action="http://www.meetup.com/kw-ruby-on-rails/")
+            %input{type: "submit", value: "Join us!", class: "hero__link"}
 
 %section.container
   %ul.bullets
