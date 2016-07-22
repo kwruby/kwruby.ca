@@ -1,0 +1,17 @@
+%header.navigation(role="banner")
+  .navigation-wrapper
+    %a.url(href='/'){class: "logo"}
+      %img.photo(src='/logo/current.png')
+    %a(href="javascript:void(0)"){class: "navigation-menu-button", id: "js-mobile-menu"} Menu
+    %nav{role: "navigation"}
+      %ul{class: "navigation-menu show", id: "js-navigation-menu"}
+        %li.nav-link= link_to 'Home', '/'
+        %li.nav-link= link_to 'Wiki', '/wiki'
+        %li.nav-link= link_to 'Local Rubyists', '/wiki/rubyists_in_waterloo'
+        %li.nav-link= link_to 'Local Companies using Ruby', '/wiki/companies_using_ruby_in_waterloo'
+        %li.nav-link
+          %a(href='http://github.com/kwruby' rel='me') GitHub
+        %li.nav-link
+          %a(href='https://twitter.com/kwrubydev' rel='me') Twitter
+        %li.nav-link
+          %a(href='https://www.linkedin.com/groups?home=&gid=8311601' rel='me') LinkedIn

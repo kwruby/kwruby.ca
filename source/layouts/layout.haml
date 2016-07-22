@@ -1,24 +1,12 @@
 = wrap_layout :bare do
-  %nav
-    .vcard
-      %a.url(href='/')
-        %img.photo(src='/logo/current.png')
-        %span.org KWRuby
-    %ul
-      %li= link_to 'Wiki', '/wiki'
-      %li
-        %a(href='http://github.com/kwruby' rel='me')
-          %i.icon-github
-      %li
-        %a(href='https://twitter.com/kwrubydev' rel='me')
-          %i.icon-twitter
+  %head
+    = tag "link", href: 'http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext',
+      rel: 'stylesheet',
+      type: 'text/css'
 
-  = yield
+  %body
+    .section
+      = partial "nav"
+      = yield
+    = partial "footer"
 
-  %footer
-    .copyright
-      %a(rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US")
-        %img(alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png")
-      %br
-      This work is licensed under a
-      %a(rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US") Creative Commons Attribution-ShareAlike 3.0 Unported License

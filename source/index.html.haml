@@ -2,40 +2,32 @@
 title: KW Ruby Developers
 ---
 
-%section.masthead
-  %h1 KW Ruby Developers
-  %p.lead
-    dedicated to learning and sharing about <a href="http://ruby-lang.org">Ruby</a>.
-    %br
-    (and frequently <a href="http://rubyonrails.org">Rails</a>)
+%section.hero
+  .side-image
+    .side-image-content
+      %h1.hero__title
+        Dedicated to learning and sharing about <a href="http://ruby-lang.org">Ruby</a>
+      %h2
+        All skill levels are welcome.
+      %h3
+        We meet once a month for a workshop, training session, or discussion.
+      %form(action="http://www.meetup.com/kw-ruby-on-rails/")
+        %input{type: "submit", value: "Join us!", class: "hero__link"}
 
-  =link_to 'Join us for the next meeting', 'http://www.meetup.com/kw-ruby-on-rails/', :class => 'sign-up'
+%section.container
+  %ul.bullets
+    %li.bullet
+      .bullet-icon.bullet-icon-1
+        %img(src="http://photos2.meetupstatic.com/photos/event/4/2/6/highres_147421062.jpeg")
+      .bullet-content
+        %h2 Join us on MeetUp
+        %p
+          =link_to 'KW Ruby Meetup', 'http://www.meetup.com/kw-ruby-on-rails/', :class => 'sign-up'
 
-%section.marketing
-  .column
-    %p
-      All skill levels are welcome.
-    %p
-      We meet once a month for a workshop, training session, or discussion.
-    %ul.content
-      %li
-        %a(href='/wiki')
-          %i.icon-pencil
-          Wiki
-  .column
-    %h4 Around the Web
-    %ul.content
-      %li
-        %a(href='http://github.com/kwruby' rel='me')
-          %i.icon-github
-          Github
-      %li
-        %a(href='http://twitter.com/kwrubydev' rel='me')
-          %i.icon-twitter
-          Twitter
-      %li
-        %a(href='https://www.linkedin.com/groups?home=&gid=8311601' rel='me')
-          %i.icon-linkedin
-          Linkedin
-
-
+    %li.bullet
+      .bullet-icon.bullet-icon-3
+      .bullet-content
+        %h2 Our Wiki
+        %p
+          %a(href='/wiki')
+            Wiki

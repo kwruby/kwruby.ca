@@ -1,6 +1,7 @@
 = wrap_layout :layout do
-  %article.h-entry
-    - unless current_page.url == '/wiki/'
-      %header
-        %h1.p-name= current_page.data.title
-    %section.e-content= yield
+  .container
+    %article.h-entry
+      - unless current_page.url == '/wiki/'
+        %header
+          %h1.hero__title= current_page.data.title
+      %section.e-content= yield
