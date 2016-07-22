@@ -5,13 +5,13 @@
     %a(href="javascript:void(0)"){class: "navigation-menu-button", id: "js-mobile-menu"} Menu
     %nav{role: "navigation"}
       %ul{class: "navigation-menu show", id: "js-navigation-menu"}
-        %li.nav-link= link_to 'Home', '/'
-        %li.nav-link= link_to 'Wiki', '/wiki'
-        %li.nav-link= link_to 'Local Rubyists', '/wiki/rubyists_in_waterloo'
-        %li.nav-link= link_to 'Local Companies using Ruby', '/wiki/companies_using_ruby_in_waterloo'
-        %li.nav-link
+        %li.nav-link{id: 'nav-home'}= link_to 'Home', '/'
+        %li.nav-link{id: 'nav-wiki'}= link_to 'Wiki', '/wiki'
+        %li.nav-link{id: 'nav-rubyists'}= link_to 'Local Rubyists', '/wiki/rubyists_in_waterloo'
+        %li.nav-link{id: 'nav-companies'}= link_to 'Local Companies using Ruby', '/wiki/companies_using_ruby_in_waterloo'
+        %li.nav-link{id: 'nav-github'}
           %a(href='http://github.com/kwruby' rel='me') GitHub
-        %li.nav-link
+        %li.nav-link{id: 'nav-twitter'}
           %a(href='https://twitter.com/kwrubydev' rel='me') Twitter
-        %li.nav-link
+        %li.nav-link{id: 'nav-linkedin'}
           %a(href='https://www.linkedin.com/groups?home=&gid=8311601' rel='me') LinkedIn

@@ -2,7 +2,7 @@
 title: KWRuby Wiki
 ---
 
-<h1 class="hero__title">
+<h1 class="hero__title" id="title">
   Getting Started with Ruby
 </h1>
 
@@ -17,7 +17,7 @@ meetings or by members:
 * [Contestoga College](http://www.conestogac.on.ca) has a [continuing education](http://www.conestogac.on.ca/continuing-education/) course [PROG1190 - Ruby I](https://studentportal.conestogac.on.ca/StudentPortal/Default.aspx?mgid=0&smid=5&ssmid=0&Key=PROG1190&CRSId=25819)
 
 <br />
-<h1 class="hero__title">
+<h1 class="hero__title" id="pages-title">
   Pages
 </h1>
 

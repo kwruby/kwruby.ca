@@ -16,3 +16,9 @@ gem 'middleman-favicon-maker', '~> 3.7'
 gem 'bitters'
 gem 'bourbon'
 gem 'neat'
+
+group :development do
+  gem "rake", "~> 10.1.0"
+  gem "rspec", "~> 2.14.1"
+  gem "capybara", "~> 2.1.0"
+end
