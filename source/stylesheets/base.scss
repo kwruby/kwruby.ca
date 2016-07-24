@@ -1,5 +1,5 @@
-@import "bourbon";
-@import "neat";
+@import 'bourbon';
+@import 'neat';
 @import 'base/base';
 @import '_hero';
 
@@ -24,6 +24,7 @@ body{
 
 .container {
   @include outer-container(80%);
+
   padding: 2em;
   flex: 1;
 }
