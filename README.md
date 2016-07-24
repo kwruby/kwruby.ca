@@ -16,6 +16,11 @@ Then execute the following:
 1. `bundle install`
 2. `bundle exec rspec`
 
+## Code quality
+1. `bundle install`
+2. `bundle exec rubocop -F` for ruby code checking
+3. `bundle exec sccss-lint` for css/scss code checking
+
 ## Build for deployment
 
 1. `bundle install`
