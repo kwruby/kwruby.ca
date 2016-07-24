@@ -1,0 +1,5 @@
+scss_files: 'source/stylesheets/**/*.css.scss'
+
+exclude:
+  - 'source/stylesheets/base/**'
+  - 'source/stylesheets/refills/**'

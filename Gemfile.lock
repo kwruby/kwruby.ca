@@ -8,6 +8,7 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     addressable (2.3.8)
+    ast (2.3.0)
     bitters (1.3.1)
       bourbon (>= 5.0.0.beta.3)
       sass (~> 3.4)
@@ -135,13 +136,17 @@ GEM
       tilt (~> 1.4.1)
     padrino-support (0.12.5)
       activesupport (>= 3.1)
+    parser (2.3.1.2)
+      ast (~> 2.2)
     pkg-config (1.1.7)
+    powerpack (0.1.1)
     ptools (1.3.3)
     rack (1.6.4)
     rack-livereload (0.3.16)
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
+    rainbow (2.1.0)
     rake (10.1.1)
     rb-fsevent (0.9.6)
     rb-inotify (0.9.5)
@@ -156,7 +161,17 @@ GEM
     rspec-expectations (2.14.5)
       diff-lcs (>= 1.1.3, < 2.0)
     rspec-mocks (2.14.6)
+    rubocop (0.41.2)
+      parser (>= 2.3.1.1, < 3.0)
+      powerpack (~> 0.1)
+      rainbow (>= 1.99.1, < 3.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (~> 1.0, >= 1.0.1)
+    ruby-progressbar (1.8.1)
     sass (3.4.20)
+    scss_lint (0.49.0)
+      rake (>= 0.9, < 12)
+      sass (~> 3.4.20)
     sprockets (2.12.4)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -178,6 +193,7 @@ GEM
     uglifier (2.7.2)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    unicode-display_width (1.1.0)
     xpath (2.0.0)
       nokogiri (~> 1.3)
 
@@ -199,6 +215,8 @@ DEPENDENCIES
   rake (~> 10.1.0)
   redcarpet (~> 3.1.2)
   rspec (~> 2.14.1)
+  rubocop
+  scss_lint
 
 BUNDLED WITH
    1.11.2

@@ -1,10 +1,10 @@
-%header.navigation(role="banner")
+%header.navigation(role='banner')
   .navigation-wrapper
-    %a.url(href='/'){class: "logo"}
+    %a.url(href='/'){class: 'logo'}
       %img.photo(src='/logo/current.png')
-    %a(href="javascript:void(0)"){class: "navigation-menu-button", id: "js-mobile-menu"} Menu
-    %nav{role: "navigation"}
-      %ul{class: "navigation-menu show", id: "js-navigation-menu"}
+    %a(href='javascript:void(0)'){class: 'navigation-menu-button', id: 'js-mobile-menu'} Menu
+    %nav{role: 'navigation'}
+      %ul{class: 'navigation-menu show', id: 'js-navigation-menu'}
         %li.nav-link{id: 'nav-home'}= link_to 'Home', '/'
         %li.nav-link{id: 'nav-wiki'}= link_to 'Wiki', '/wiki'
         %li.nav-link{id: 'nav-rubyists'}= link_to 'Local Rubyists', '/wiki/rubyists_in_waterloo'

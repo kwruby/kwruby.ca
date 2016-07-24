@@ -1,4 +1,4 @@
-require "middleman"
+require 'middleman'
 require 'rspec'
 require 'capybara/rspec'
 

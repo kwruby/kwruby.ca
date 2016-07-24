@@ -3,18 +3,18 @@
   %head
     %meta{:charset => 'utf-8'}
     %meta{:name => 'viewport', :content => 'width=device-width, initial-scale=1.0'}
-    %meta{ id: "meta-theme-color", name: "theme-color", content: "#771e1e" }
+    %meta{ id: 'meta-theme-color', name: 'theme-color', content: '#771e1e' }
 
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     %meta{:content => 'IE=edge,chrome=1', 'http-equiv' => 'X-UA-Compatible'}
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    %title= current_page.data.title || "Andrew Sullivan Cant"
+    %title= current_page.data.title || 'Andrew Sullivan Cant'
 
-    %link{ rel: "icon", type: "image/ico", href: "/favicon.ico" }
+    %link{ rel: 'icon', type: 'image/ico', href: '/favicon.ico' }
 
-    = stylesheet_link_tag "all"
-    = javascript_include_tag  "all"
+    = stylesheet_link_tag 'all'
+    = javascript_include_tag  'all'
 
   %body{:class => page_classes}
     .content

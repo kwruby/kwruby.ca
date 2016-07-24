@@ -1,6 +1,7 @@
 @import "bourbon";
 @import "neat";
 @import 'base/base';
+@import '_hero';
 
 body{
   position: relative;
@@ -10,51 +11,19 @@ body{
   background-color: #fdfdfd;
 }
 
-.hero {
-  background-color: $base-background-color;
-  &__title {
-    font-size: 2.7em;
-  }
-  &__link {
-    font-size: 1.7em;
-  }
-}
-
 .section {
   min-height: 100%;
   padding-bottom: 5%;
+
+}
+.content {
+  display: flex;
+  min-height: 90vh;
+  flex-direction: column;
 }
 
 .container {
   @include outer-container(80%);
   padding: 2em;
-}
-
-.flex-wrapper {
-  @media (min-width: 1000px){
-    display: flex;
-  }
-}
-
-.flex-right {
-  @media (min-width: 1300px){
-    padding-top: 3em;
-  }
-}
-
-.flex-left{
-  display: none;
-  @media (min-width: 1000px){
-    display: block;
-    align-content: flex-end;
-    padding-right: 3em;
-  }
-}
-
-.devicon-ruby-plain {
-  color: #fdfdfd;
-  font-size: 20em;
-  position: relative;
-  right: 0;
-  bottom: 0;
+  flex: 1;
 }
