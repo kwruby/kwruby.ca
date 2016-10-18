@@ -6,6 +6,7 @@ title: Companies Using Ruby in Waterloo
 * [Crankworks](https://crankworks.ca/)
 * [Demeure](https://www.demeure.com/)
 * [eSentire](https://www.esentire.com/)
+* [FunnelCake](http://getfunnelcake.com/)
 * [InTheChat](http://inthechat.com/)
 * [PrintChomp](https://www.printchomp.com/)
 * [Shopify](https://www.shopify.ca/)
