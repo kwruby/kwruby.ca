@@ -12,3 +12,15 @@ title: Companies Using Ruby in Waterloo
 * [Shopify](https://www.shopify.ca/)
 * [Sweet Tooth](https://www.sweettoothrewards.com/)
 * [Vidyard](https://www.vidyard.com/)
+
+# Alumni
+
+Used to be in the region but have either closed, or moved.
+
+* [Qwalify](https://qwalify.com/), have moved to [Montreal](https://en.wikipedia.org/wiki/Montreal)
+
+# Sources
+
+Sources of information for finding companies working with Ruby:
+
+* [Waterloo Tech Jobs](https://www.waterlootechjobs.com/jobs/find/?query=ruby)
