@@ -17,5 +17,6 @@ title: Rubyists in Waterloo
 * [Matt Haliday](http://matthalliday.ca/)
 * [Nick Mulder](https://about.me/nickmulder/)
 * [Ralph Janke](https://twitter.com/RalphJanke)
+* [Scott King](https://kingscott.github.io/)
 * [Simon de Boer](https://ca.linkedin.com/in/simondeboer)
 * [Vadim Brodsky](https://www.vadimbrodsky.com/)
