@@ -23,3 +23,4 @@ meetings or by members:
 
 * [Rubyists in Waterloo](/wiki/rubyists_in_waterloo)
 * [Companies Using Ruby in Waterloo](/wiki/companies_using_ruby_in_waterloo)
+* [Contributing to Ruby Workshop Guide](/wiki/contributing_to_ruby_workshop_guide)
