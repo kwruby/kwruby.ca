@@ -8,6 +8,8 @@ title: Companies Using Ruby in Waterloo
 * [eSentire](https://www.esentire.com/)
 * [FunnelCake](http://getfunnelcake.com/)
 * [In The Chat](http://inthechat.com/)
+* [Karos](http://karos.ca)
+* [Lockedup](http://lockedup.ca/)
 * [Printchomp](https://www.printchomp.com/)
 * [Shopify](https://www.shopify.ca/)
 * [Sweet Tooth](https://www.sweettoothrewards.com/)
