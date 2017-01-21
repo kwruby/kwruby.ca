@@ -2,7 +2,7 @@
 title: Contributing to Ruby Workshop Guide
 ---
 
-Notes and guidelines for running a KWRuby [FLOSS]() contribution workshop.
+Notes and guidelines for running a KWRuby [FLOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) contribution workshop.
 
 # Agenda for the Workshop
 
@@ -14,7 +14,7 @@ Notes and guidelines for running a KWRuby [FLOSS]() contribution workshop.
 * **0715** Develop all the things!
 * **0900** Retrospective about contributions and challenges
 
-After the workshop meeting everyone can add their contributs in the meetup
+After the workshop meeting everyone can add their contributes in the meetup
 comments, and one of the organizers should collect and tweet those changes.
 
 # Projects to consider contributing to
