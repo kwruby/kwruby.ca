@@ -28,3 +28,19 @@ body{
   padding: 2em;
   flex: 1;
 }
+
+article.h-entry {
+  @extend article.type-system-sans;
+
+  ul {
+    @extend p;
+    list-style-type:     disc;
+    list-style-position: inside;
+
+    ul {
+      padding-left: 1em;
+      margin-bottom: 0;
+      list-style-type: circle;
+    }
+  }
+}

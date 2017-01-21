@@ -22,6 +22,6 @@ title: Rubyists in Waterloo
 * [Simon de Boer](https://ca.linkedin.com/in/simondeboer)
 * [Vadim Brodsky](https://www.vadimbrodsky.com/)
 
-Alumni
-======
+# Alumni
+
 * [Don Marges](http://www.donmarges.io/)
