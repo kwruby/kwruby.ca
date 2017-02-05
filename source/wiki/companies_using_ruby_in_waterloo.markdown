@@ -10,6 +10,7 @@ title: Companies Using Ruby in Waterloo
 * [In The Chat](http://inthechat.com/)
 * [Karos](http://karos.ca)
 * [Lockedup](http://lockedup.ca/)
+* [Miovision](https://miovision.com/)
 * [Printchomp](https://www.printchomp.com/)
 * [Shopify](https://www.shopify.ca/)
 * [Sweet Tooth](https://www.sweettoothrewards.com/)
