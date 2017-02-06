@@ -11,6 +11,7 @@ title: Rubyists in Waterloo
 * [Declan Whelan](http://dpwhelan.com/)
 * [Eric Roberts](http://www.ericroberts.ca/)
 * [Jesse McGinnis](https://jcmcginnis.com/)
+* [Joan Currie](https://github.com/JECurrie)
 * [Josh Teeter](http://joshteeter.com/)
 * [Kamil Tusznio](https://twitter.com/ktusznio/)
 * [Karim Tarik](http://gotimeliner.com/karim-tarek)
