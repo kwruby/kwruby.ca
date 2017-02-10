@@ -17,6 +17,7 @@ title: Rubyists in Waterloo
 * [Kamil Tusznio](https://twitter.com/ktusznio/)
 * [Karim Tarik](http://gotimeliner.com/karim-tarek)
 * [Kris Braun](https://twitter.com/KrisABraun)
+* [Krista Odger](https://ca.linkedin.com/in/krista-odger-84913749)
 * [Marco Imperatore](https://ca.linkedin.com/in/marcoimperatore)
 * [Matt Haliday](http://matthalliday.ca/)
 * [Nick Mulder](https://about.me/nickmulder/)
