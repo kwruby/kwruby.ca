@@ -7,6 +7,7 @@ title: Rubyists in Waterloo
 * [Bill Curtis](http://billcurt.is/)
 * Chris Johns
 * [Corey Martella](https://ca.linkedin.com/in/coreymartella)
+* [Dan Reynolds](http://danreynolds.ca/)
 * [Dean Missikowski](https://ca.linkedin.com/in/deanmissikowski)
 * [Declan Whelan](http://dpwhelan.com/)
 * [Eric Roberts](http://www.ericroberts.ca/)
