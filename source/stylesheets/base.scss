@@ -45,3 +45,25 @@ article.h-entry {
     }
   }
 }
+
+.hero .h-card {
+  color: #fff;
+  h1 {
+    font-size: 2.0em;
+    margin: 0;
+    @include media($medium-screen) {
+      font-size: 4em;
+    }
+  }
+  p  {
+    color: #fff;
+    font-size: 1.7em;
+    margin: 0;
+  }
+  a.follow {
+    @extend button;
+    font-size:  1.7em;
+    padding:    20px 40px;
+    margin-top: 10px;
+  }
+}
