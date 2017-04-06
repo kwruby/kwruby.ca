@@ -74,9 +74,9 @@ end
 
 activate :deploy do |deploy|
   deploy.method = :git
-#  deploy.method       = :rsync
-#  deploy.host         = 'kwruby.ca'
-#  deploy.path         = '/var/www/kwruby.ca'
+  # deploy.method       = :rsync
+  # deploy.host         = 'kwruby.ca'
+  # deploy.path         = '/var/www/kwruby.ca'
   deploy.build_before = true
   deploy.clean        = true
 end
