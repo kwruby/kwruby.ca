@@ -7,65 +7,52 @@ describe 'index', type: :feature do
 
   context 'page content' do
     it 'has the correct title header' do
-      page.should have_selector 'h1'
       within 'h1' do
-        page.should have_content(
-          /Dedicated to learning and sharing about Ruby/i
+        expect(page).to have_content(/KWRuby/i)
+      end
+    end
+
+    it 'has the introduction note' do
+      within '.p-note' do
+        expect(page).to have_content(
+          /is a once a month Ruby workshop, training session, or discussion in Kitchener-Waterloo/i # rubocop:disable LineLength
         )
       end
     end
 
-    it 'has a welcoming message to new people' do
-      within '#skill' do
-        page.should have_content(/All skill levels are welcome/i)
-      end
-    end
-
-    it 'has a button asking people to join us' do
-      page.should have_selector 'form'
-      expect(find_button('Join us!')).not_to be_nil
-    end
-
-    it 'has a link to meetup' do
-      page.should have_selector 'a'
-      expect(page.find('a.sign-up')).not_to be_nil
-      expect(page.find('a.sign-up')[:href]).to eq(
-        'http://www.meetup.com/kw-ruby-on-rails/'
+    it 'has a follow/join button' do
+      expect(page).to have_link(
+        'Join us!', href: 'http://www.meetup.com/kw-ruby-on-rails/'
       )
     end
 
     it 'has a link to the wiki' do
-      page.should have_selector 'a'
-      expect(page.find('a#wiki-link')).not_to be_nil
-      expect(page.find('a#wiki-link')[:href]).to eq('/wiki')
+      expect(page).to have_link('wiki-link', href: '/wiki')
     end
   end
 
   context 'navigation' do
     it 'has navigation' do
-      page.should have_selector 'nav'
-      page.should have_selector 'header'
+      within('header') do
+        expect(page).to have_selector('nav')
+      end
     end
+
     it { expect(page.find('a.logo img')[:src]).not_to be_nil }
     it { expect(page.find('a.logo img')[:src]).to eq('/logo/current.png') }
-    it { expect(page.find('#nav-home a')[:href]).to eq('/') }
-    it { expect(page.find('#nav-wiki a')[:href]).to eq('/wiki') }
-    it { expect(page.find('#nav-github a')[:href]).to match(/github/) }
-    it { expect(page.find('#nav-github a')[:href]).to match(/kwruby/) }
-    it { expect(page.find('#nav-twitter a')[:href]).to match(/twitter/) }
-    it { expect(page.find('#nav-twitter a')[:href]).to match(/kwrubydev/) }
-    it { expect(page.find('#nav-linkedin a')[:href]).to match(/linkedin/) }
-    it { expect(page.find('#nav-linkedin a')[:href]).to match(/8311601/) }
 
-    it do
-      expect(page.find('#nav-rubyists a')[:href]).to eq(
-        '/wiki/rubyists_in_waterloo'
-      )
+    def expect_nav_link(location, href)
+      within('nav') { expect(page).to have_link(location, href: href) }
     end
-    it do
-      expect(page.find('#nav-companies a')[:href]).to eq(
-        '/wiki/companies_using_ruby_in_waterloo'
-      )
-    end
+
+    # rubocop:disable LineLength
+    it { expect_nav_link('Home',                       '/') }
+    it { expect_nav_link('Wiki',                       '/wiki') }
+    it { expect_nav_link('GitHub',                     'http://github.com/kwruby') }
+    it { expect_nav_link('Twitter',                    'https://twitter.com/kwrubydev') }
+    it { expect_nav_link('LinkedIn',                   'https://www.linkedin.com/groups?home=&gid=8311601') }
+    it { expect_nav_link('Local Rubyists',             '/wiki/rubyists_in_waterloo') }
+    it { expect_nav_link('Local Companies using Ruby', '/wiki/companies_using_ruby_in_waterloo') }
+    # rubocop:enable
   end
 end
