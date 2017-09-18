@@ -13,6 +13,7 @@ title: Companies Using Ruby in Waterloo
 * [Printchomp](https://www.printchomp.com/)
 * [Shopify](https://www.shopify.ca/)
 * [Sweet Tooth](https://www.sweettoothrewards.com/)
+* [TextNow](https://www.textnow.com/)
 * [Vidyard](https://www.vidyard.com/)
 
 # Alumni
