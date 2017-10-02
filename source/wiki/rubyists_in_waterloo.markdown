@@ -9,6 +9,7 @@ title: Rubyists in Waterloo
 * [Corey Martella](https://ca.linkedin.com/in/coreymartella)
 * [Craig Lehmann](https://www.linkedin.com/in/craig-lehmann-341548110/)
 * [Dan Reynolds](http://danreynolds.ca/)
+* [Dave Rapin](http://rapin.com/)
 * [Dean Missikowski](https://ca.linkedin.com/in/deanmissikowski)
 * [Declan Whelan](http://dpwhelan.com/)
 * [Eric Roberts](http://www.ericroberts.ca/)
