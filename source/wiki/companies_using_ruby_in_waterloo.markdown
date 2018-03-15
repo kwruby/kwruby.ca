@@ -8,6 +8,7 @@ title: Companies Using Ruby in Waterloo
 * [FunnelCake](http://getfunnelcake.com/)
 * [In The Chat](http://inthechat.com/)
 * [Karos](http://karos.ca)
+* [Kiiah](http://www.kiiah.com)
 * [Lockedup](http://lockedup.ca/)
 * [Miovision](https://miovision.com/)
 * [Printchomp](https://www.printchomp.com/)
