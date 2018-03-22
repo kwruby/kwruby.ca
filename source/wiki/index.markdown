@@ -7,6 +7,8 @@ title: KWRuby Wiki
 Some resources for getting start with Ruby have been mentioned either during
 meetings or by members:
 
+* [Getting Started with Rails - Rails Guides](https://www.railstutorial.org/)
+* [Ruby on Rails Tutorial](https://www.railstutorial.org/) by Michael Hartl
 * [exorcism.io](http://exercism.io/), a service to trying and learning
   a variety of languages including Ruby
 * [Eloquent Ruby](http://eloquentruby.com/) by [Russ Olsen](http://russolsen.com/)
