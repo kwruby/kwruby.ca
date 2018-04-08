@@ -16,6 +16,9 @@ meetings or by members:
 * [Bike Shed podcast](http://bikeshed.fm/18)
 * [Contestoga College](http://www.conestogac.on.ca) has a [continuing education](http://www.conestogac.on.ca/continuing-education/) course [PROG1190 - Ruby I](https://studentportal.conestogac.on.ca/StudentPortal/Default.aspx?mgid=0&smid=5&ssmid=0&Key=PROG1190&CRSId=25819)
 
+[Leigh Halliday](https://www.leighhalliday.com) also maintains an extensive
+list of Ruby resources https://www.leighhalliday.com/best-ruby-and-ruby-on-rails-resources
+
 # Pages
 
 * [Rubyists in Waterloo](/wiki/rubyists_in_waterloo)
