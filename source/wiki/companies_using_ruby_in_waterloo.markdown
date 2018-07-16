@@ -6,6 +6,7 @@ title: Companies Using Ruby in Waterloo
 * [Chalk](https://chalk.com)
 * [Crankworks](https://crankworks.ca/)
 * [eSentire](https://www.esentire.com/)
+* [Fera AI](https://www.fera.ai)
 * [FunnelCake](http://getfunnelcake.com/)
 * [In The Chat](http://inthechat.com/)
 * [Karos](http://karos.ca)
