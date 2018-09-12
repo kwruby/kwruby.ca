@@ -22,6 +22,7 @@ title: Rubyists in Waterloo
 * [Krista Odger](https://ca.linkedin.com/in/krista-odger-84913749)
 * [Marco Imperatore](https://ca.linkedin.com/in/marcoimperatore)
 * [Matt Haliday](http://matthalliday.ca/)
+* [Mike van Lammeren](https://www.linkedin.com/in/mvanlamz/)
 * [Nick Mulder](https://about.me/nickmulder/)
 * [Ralph Janke](https://twitter.com/RalphJanke)
 * [Regan Chan](http://reganchan.ca/)
