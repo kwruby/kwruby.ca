@@ -20,6 +20,7 @@ title: Rubyists in Waterloo
 * [Karim Tarik](http://gotimeliner.com/karim-tarek)
 * [Kris Braun](https://twitter.com/KrisABraun)
 * [Krista Odger](https://ca.linkedin.com/in/krista-odger-84913749)
+* [Lucas Arantes](https://lucasprag.com)
 * [Marco Imperatore](https://ca.linkedin.com/in/marcoimperatore)
 * [Matt Haliday](http://matthalliday.ca/)
 * [Mike van Lammeren](https://www.linkedin.com/in/mvanlamz/)
