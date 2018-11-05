@@ -36,3 +36,7 @@ TODO
 * [Josh Teeter](http://joshteeter.com/) opened [PR#5](https://github.com/NullVoxPopuli/case_transform-rust-extensions/pull/5) on a ruby wrapper around Rust library [inflector](https://github.com/whatisinternet/inflector), also by Josh
 * [Scott King](https://kingscott.github.io/) opened [PR#5497](https://github.com/jekyll/jekyll/pull/5497) for Jekyll
 * [Bill Curtis](http://billcurt.is/) opened [PR#35](https://github.com/nskins/goby/pull/35) for goby, a Ruby text-based RPG
+
+## [October 16 2018](https://www.meetup.com/kw-ruby-on-rails/events/254759623/)
+
+* [Lucas Arantes](https://github.com/lucasprag) opened [PR#34233](https://github.com/rails/rails/pull/34233) for Rails
