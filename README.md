@@ -68,7 +68,7 @@ Icebox
 
 Sites for Inspiration
 ---------------------
-* http://www.seattlerb.org/
+* http://seattlerb.org/
 * http://ottawaruby.ca/
-* http://vienna-rb.at/
 * http://bostonrb.org
+* http://vanruby.org/
