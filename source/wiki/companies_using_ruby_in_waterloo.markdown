@@ -15,7 +15,7 @@ title: Companies Using Ruby in Waterloo
 * [Miovision](https://miovision.com/)
 * [Printchomp](https://www.printchomp.com/)
 * [Shopify](https://www.shopify.ca/)
-* [Sweet Tooth](https://www.sweettoothrewards.com/)
+* [Smile.io](https://www.smile.io/)
 * [TextNow](https://www.textnow.com/)
 * [Vidyard](https://www.vidyard.com/)
 
