@@ -32,6 +32,7 @@ title: Rubyists in Waterloo
 * [Simon de Boer](https://ca.linkedin.com/in/simondeboer)
 * [Tyler Campaigne](https://github.com/TCampaigne)
 * [Vadim Brodsky](https://www.vadimbrodsky.com/)
+* [Hosein Abdoli](https://www.smhabdoli.com/) - [Github](https://www.github.com/smhabdoli), [Linkedin](https://www.linkedin.com/in/abdoli-smh), [twitter](https://www.twitter.com/smhayg)
 
 # Alumni
 
