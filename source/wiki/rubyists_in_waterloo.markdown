@@ -13,6 +13,8 @@ title: Rubyists in Waterloo
 * [Dean Missikowski](https://ca.linkedin.com/in/deanmissikowski)
 * [Declan Whelan](http://dpwhelan.com/)
 * [Eric Roberts](http://www.ericroberts.ca/)
+* [Jay El-Kaake](https://github.com/jayelkaake)
+* [Jeremiah Ogutu](https://www.jeremiahogutu.ca/)
 * [Jesse McGinnis](https://jcmcginnis.com/)
 * [Joan Currie](https://github.com/JECurrie)
 * [Josh Teeter](http://joshteeter.com/)

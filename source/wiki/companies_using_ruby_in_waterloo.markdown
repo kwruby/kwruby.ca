@@ -8,6 +8,7 @@ title: Companies Using Ruby in Waterloo
 * [eSentire](https://www.esentire.com/)
 * [Fera AI](https://www.fera.ai)
 * [FunnelCake](http://getfunnelcake.com/)
+* [Grobo](https://www.grobo.io/)
 * [In The Chat](http://inthechat.com/)
 * [Karos](http://karos.ca)
 * [Kiiah](http://www.kiiah.com)
@@ -24,6 +25,10 @@ title: Companies Using Ruby in Waterloo
 Used to be in the region but have either closed, or moved.
 
 * [Qwalify](https://qwalify.com/), have moved to [Montreal](https://en.wikipedia.org/wiki/Montreal)
+
+# Consultants which support Ruby
+
+* [Zeitspace](https://zeitspace.com/)
 
 # Sources
 
