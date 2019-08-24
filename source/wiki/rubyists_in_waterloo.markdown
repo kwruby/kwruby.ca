@@ -33,6 +33,7 @@ title: Rubyists in Waterloo
 * [Scott King](https://kingscott.github.io/)
 * [Simon de Boer](https://ca.linkedin.com/in/simondeboer)
 * [Tyler Campaigne](https://github.com/TCampaigne)
+* [Travis Fantina](https://www.travisfantina.com)
 * [Vadim Brodsky](https://www.vadimbrodsky.com/)
 * [Hosein Abdoli](https://www.smhabdoli.com/) - [Github](https://www.github.com/smhabdoli), [Linkedin](https://www.linkedin.com/in/abdoli-smh), [Twitter](https://www.twitter.com/smhayg)
 
