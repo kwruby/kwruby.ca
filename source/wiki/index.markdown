@@ -17,6 +17,7 @@ meetings or by members:
 * [Contestoga College](http://www.conestogac.on.ca) has a [continuing education](http://www.conestogac.on.ca/continuing-education/) course [PROG1190 - Ruby I](https://studentportal.conestogac.on.ca/StudentPortal/Default.aspx?mgid=0&smid=5&ssmid=0&Key=PROG1190&CRSId=25819)
 * [Ruby Rails Link](https://www.rubyonrails.link/) has a [slack channel](https://rubyonrails-link.slack.com/)
   and a nice [wiki](https://github.com/railslink/resources/wiki/Guide-to-Learning-Ruby-on-Rails) with lots of useful resources
+* [Learn Ruby on Rails from Thoughtbot](https://thoughtbot.com/upcase/rails)
 
 [Leigh Halliday](https://www.leighhalliday.com) also maintains an extensive
 list of Ruby resources https://www.leighhalliday.com/best-ruby-and-ruby-on-rails-resources
