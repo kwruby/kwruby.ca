@@ -1,0 +1,35 @@
+.hero {
+  background-color: $ruby-light;
+  font-weight: 400;
+
+  .hero__icon {
+    width: 100%;
+    max-width: 16em;
+    float: right;
+  }
+
+  .hero__title {
+    font-size: 2.7em;
+
+    a {
+      color: $ruby-dark;
+      font-weight: bold;
+    }
+
+    a:hover {
+      color: $ruby-darker;
+      text-decoration: none;
+    }
+  }
+
+  .hero__link {
+    background: $ruby-dark;
+    padding: .4em 1.4em;
+    color: $white;
+    font-size: 1.6em;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+}

@@ -52,6 +52,14 @@ helpers do
 
     link_to name, url, options
   end
+
+  # copied from https://cobwwweb.com/render-inline-svg-rails-middleman
+  def svg(name)
+    root = Middleman::Application.root
+    file_path = "#{root}/source/images/#{name}.svg"
+    return File.read(file_path) if File.exists?(file_path)
+    '(not found)'
+  end
 end
 
 set :css_dir, 'stylesheets'

@@ -2,21 +2,20 @@
 title: KW Ruby Developers
 ---
 
-%section.hero
-  .side-image
-    .side-image-content
-      .hero__flex-wrapper
-        .hero__flex-left
-          %i.devicon-ruby-plain
-        .hero__flex-right
-          %h1.hero__title
-            Dedicated to learning and sharing about <a href='http://ruby-lang.org'>Ruby</a>
-          %h2#skill
-            All skill levels are welcome.
-          %h3
-            We meet once a month for a workshop, training session, or discussion.
-          %form(action='http://www.meetup.com/kw-ruby-on-rails/')
-            %input{type: 'submit', value: 'Join us!', class: 'hero__link'}
+%section.hero.text-white.py-md-4
+  .container-fluid
+    .row.py-5
+      .col-4.d-none.d-md-block
+        .hero__icon
+          = svg "ruby"
+      .col
+        %h1.hero__title.pb-3
+          Dedicated to learning and sharing about <a href="http://ruby-lang.org">Ruby</a>
+        %p
+          All skill levels are welcome.
+        %p.pb-1
+          We meet once a month for a workshop, training session, or discussion.
+        = link_to "Join us!", "https://www.meetup.com/kw-ruby-on-rails/", class: "btn hero__link"
 
 %section.container
   %ul.bullets
