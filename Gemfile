@@ -13,9 +13,6 @@ gem 'middleman-syntax',        '~> 2.0.0'
 gem 'redcarpet',               '~> 3.1.2'
 gem 'middleman-deploy',        '~> 0.3.0'
 gem 'middleman-favicon-maker', '~> 3.7'
-gem 'bitters'
-gem 'bourbon'
-gem 'neat'
 
 group :development do
   gem 'rake', '~> 10.1.0'
