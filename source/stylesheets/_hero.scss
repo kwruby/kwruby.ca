@@ -2,13 +2,13 @@
   background-color: $ruby-light;
   font-weight: 400;
 
-  .hero__icon {
+  .hero-icon {
     width: 100%;
     max-width: 16em;
     float: right;
   }
 
-  .hero__title {
+  .hero-title {
     font-size: 2.7em;
 
     a {
@@ -22,7 +22,7 @@
     }
   }
 
-  .hero__link {
+  .hero-link {
     background: $ruby-dark;
     padding: .4em 1.4em;
     color: $white;
