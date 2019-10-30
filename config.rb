@@ -38,12 +38,21 @@
 # Reload the browser automatically whenever files change
 # activate :livereload
 
-# Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  # copied from https://forum.middlemanapp.com/t/getting-the-current-route-or-uri/994/4
+  def nav_link(name, url, options={})
+    options = {
+      class: "",
+      active_if: url,
+      page: current_page.url,
+    }.update options
+    active_url = options.delete(:active_if)
+    active = Regexp === active_url ? current_page.url =~ active_url : current_page.url == active_url
+    options[:class] += " active" if active
+
+    link_to name, url, options
+  end
+end
 
 set :css_dir, 'stylesheets'
 

@@ -1,17 +1,21 @@
-%header.navigation(role='banner')
-  .navigation-wrapper
-    %a.url(href='/'){class: 'logo'}
-      %img.photo(src='/logo/current.png')
-    %a(href='javascript:void(0)'){class: 'navigation-menu-button', id: 'js-mobile-menu'} Menu
-    %nav{role: 'navigation'}
-      %ul{class: 'navigation-menu show', id: 'js-navigation-menu'}
-        %li.nav-link{id: 'nav-home'}= link_to 'Home', '/'
-        %li.nav-link{id: 'nav-wiki'}= link_to 'Wiki', '/wiki'
-        %li.nav-link{id: 'nav-rubyists'}= link_to 'Local Rubyists', '/wiki/rubyists_in_waterloo'
-        %li.nav-link{id: 'nav-companies'}= link_to 'Local Companies using Ruby', '/wiki/companies_using_ruby_in_waterloo'
-        %li.nav-link{id: 'nav-github'}
-          %a(href='http://github.com/kwruby' rel='me') GitHub
-        %li.nav-link{id: 'nav-twitter'}
-          %a(href='https://twitter.com/kwrubydev' rel='me') Twitter
-        %li.nav-link{id: 'nav-linkedin'}
-          %a(href=' https://www.linkedin.com/groups/8311601' rel='me') LinkedIn
+%nav.navbar.navbar-expand-lg.navbar-dark
+  .container-fluid
+    %a.navbar-brand.url(href='/')
+      KWRuby.ca
+    %button.navbar-toggler{"aria-controls" => "kwrubyMenu", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#kwrubyMenu", "data-toggle" => "collapse", type:  "button"}
+      %span.navbar-toggler-icon
+    #kwrubyMenu.collapse.navbar-collapse
+      %ul.navbar-nav.mr-auto
+        %li.nav-item
+          = nav_link 'Wiki', '/wiki', class: "nav-link", active_if: %r{wiki/$}
+        %li.nav-item
+          = nav_link 'Local Rubyists', '/wiki/rubyists_in_waterloo', class: "nav-link", active_if: %r{rubyists_in_waterloo}
+        %li.nav-item
+          = nav_link 'Local Companies using Ruby', '/wiki/companies_using_ruby_in_waterloo', class: "nav-link", active_if: %r{companies_using_ruby_in_waterloo}
+        %li.nav-item
+          %a.nav-link(href='http://github.com/kwruby' rel='me') GitHub
+        %li.nav-item
+          %a.nav-link(href='https://twitter.com/kwrubydev' rel='me') Twitter
+        %li.nav-item
+          %a.nav-link(href=' https://www.linkedin.com/groups/8311601' rel='me') LinkedIn
+

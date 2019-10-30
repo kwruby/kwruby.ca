@@ -1,0 +1,17 @@
+.navbar {
+  color: $gray;
+  background-color: $ruby;
+  border-bottom: 1px solid $ruby-dark;
+
+  .navbar-nav {
+    .nav-link {
+      color: $gray;
+      margin-left: 5px;
+      margin-right: 5px;
+
+      &.active, &:hover {
+        color: $gray-light;
+      }
+    }
+  }
+}
