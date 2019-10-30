@@ -3,3 +3,13 @@ body{
   font-family: $font-family;
   font-size: $font-size;
 }
+
+a {
+  color: $ruby;
+  font-weight: bold;
+}
+
+a:hover {
+  color: $ruby-dark;
+  text-decoration: none;
+}
