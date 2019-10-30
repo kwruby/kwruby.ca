@@ -18,19 +18,20 @@ title: KW Ruby Developers
         = link_to "Join us!", "https://www.meetup.com/kw-ruby-on-rails/", class: "btn hero__link"
 
 %section.container
-  %ul.bullets
-    %li.bullet
-      .bullet-icon.bullet-icon-1
-        %img(src='http://photos2.meetupstatic.com/photos/event/4/2/6/highres_147421062.jpeg')
-      .bullet-content
-        %h2 Join us on MeetUp
-        %p
-          =link_to 'KW Ruby Meetup', 'http://www.meetup.com/kw-ruby-on-rails/', :class => 'sign-up'
+  .row.py-5
+    .offset-md-2
+    .col
+      .media
+        %img.mr-3{src: 'http://photos2.meetupstatic.com/photos/event/4/2/6/highres_147421062.jpeg', alt: "Meetup", style: "width:30px;"}
+        .media-body
+          %h5.mt-0 Join us on MeetUp
+          = link_to 'KW Ruby Meetup', 'http://www.meetup.com/kw-ruby-on-rails/'
 
-    %li.bullet
-      .bullet-icon.bullet-icon-3
-      .bullet-content
-        %h2 Our Wiki
-        %p
-          %a(href='/wiki'){id: 'wiki-link'}
-            Wiki
+    .col
+      .media
+        %i.fab.fa-wikipedia-w.mr-3
+        .media-body
+          %h5.mt-0 Our Wiki
+          = link_to "Wiki", "/wiki"
+
+    .offset-md-2
