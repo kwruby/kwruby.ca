@@ -1,47 +1,15 @@
-@import 'bourbon';
-@import 'neat';
-@import 'base/base';
-@import './refills/type_systems';
-@import '_hero';
-
 body{
-  position: relative;
-  margin: 0;
-  padding-bottom: 6rem;
-  min-height: 100%;
-  background-color: #fdfdfd;
+  background-color: $white;
+  font-family: $font-family;
+  font-size: $font-size;
 }
 
-.section {
-  min-height: 100%;
-  padding-bottom: 5%;
-
-}
-.content {
-  display: flex;
-  min-height: 90vh;
-  flex-direction: column;
+a {
+  color: $ruby;
+  font-weight: bold;
 }
 
-.container {
-  @include outer-container(80%);
-
-  padding: 2em;
-  flex: 1;
-}
-
-article.h-entry {
-  @extend article.type-system-sans;
-
-  ul {
-    @extend p;
-    list-style-type:     disc;
-    list-style-position: inside;
-
-    ul {
-      padding-left: 1em;
-      margin-bottom: 0;
-      list-style-type: circle;
-    }
-  }
+a:hover {
+  color: $ruby-dark;
+  text-decoration: none;
 }

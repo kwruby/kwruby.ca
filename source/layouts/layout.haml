@@ -1,16 +1,11 @@
-= wrap_layout :bare do
+= wrap_layout :base do
   %head
     = tag 'link', href: 'http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext',
       rel: 'stylesheet',
       type: 'text/css'
 
-    = tag 'link', href: 'https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css',
-      rel: 'stylesheet',
-      type: 'text/css'
-
   %body
     .section
-      = partial 'nav'
       = yield
     = partial 'footer'
 
