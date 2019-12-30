@@ -2,7 +2,7 @@
 title: Code of Conduct
 ---
 
-KWRuby is dedicated to providing a harassment-free meetup experience for everyone. We do not tolerate harassment of meetup participants in any form. Sexual language and imagery is not appropriate for any meetup venue, including talks.Meetup participants violating these rules may be sanctioned or expelled from the meetup at the discretion of the meetup organizers.
+KWRuby is dedicated to providing a harassment-free meetup experience for everyone. We do not tolerate harassment of meetup participants in any form. Sexual language and imagery is not appropriate for any meetup venue, including talks. Meetup participants violating these rules may be sanctioned or expelled from the meetup at the discretion of the meetup organizers.
 
 Harassment includes offensive verbal comments related to gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.
 
