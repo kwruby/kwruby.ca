@@ -1,11 +1,11 @@
 %nav.navbar.navbar-expand-lg.navbar-dark
-  .container-fluid
+  .container
     %a.navbar-brand.url(href='/')
       KWRuby.ca
     %button.navbar-toggler{"aria-controls" => "kwrubyMenu", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#kwrubyMenu", "data-toggle" => "collapse", type:  "button"}
       %span.navbar-toggler-icon
     #kwrubyMenu.collapse.navbar-collapse
-      %ul.navbar-nav.mr-auto
+      %ul.navbar-nav.ml-auto
         %li.nav-item
           = nav_link 'Wiki', '/wiki', class: "nav-link", active_if: %r{wiki/$}
         %li.nav-item
@@ -14,10 +14,3 @@
           = nav_link 'Local Companies using Ruby', '/wiki/companies_using_ruby_in_waterloo', class: "nav-link", active_if: %r{companies_using_ruby_in_waterloo}
         %li.nav-item
           = nav_link 'Code of Conduct', '/wiki/code_of_conduct', class: "nav-link", active_if: %r{code_of_conduct}
-        %li.nav-item
-          %a.nav-link(href='http://github.com/kwruby' rel='me') GitHub
-        %li.nav-item
-          %a.nav-link(href='https://twitter.com/kwrubydev' rel='me') Twitter
-        %li.nav-item
-          %a.nav-link(href=' https://www.linkedin.com/groups/8311601' rel='me') LinkedIn
-
