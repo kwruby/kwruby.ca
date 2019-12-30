@@ -52,11 +52,7 @@ Backlog
 	- one on its way from [Blake Stevenson](https://twitter.com/blakestevenson)( [Dribble](http://dribbble.com/blakestevenson) )
 * created a linked in group
 * add links to other locations on the web to the landing page
-	- meetup
-	- twitter
-	- github
 	- rubyusergroups
-	- linkedin
 * consider adding a big banner image to the landing page
 	- https://www.flickr.com/search?sort=relevance&text=waterloo%20region
 	- https://www.flickr.com/search/?sort=relevance&text=waterloo%20region&license=1,2,3,4,5,6
@@ -72,3 +68,4 @@ Sites for Inspiration
 * http://ottawaruby.ca/
 * http://bostonrb.org
 * http://vanruby.org/
+* http://www.austinonrails.org/

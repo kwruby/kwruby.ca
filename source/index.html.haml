@@ -3,7 +3,7 @@ title: KW Ruby Developers
 ---
 
 %section.hero.text-white.py-md-4
-  .container-fluid
+  .container
     .row.py-5
       .col-4.d-none.d-md-block
         .hero-icon
@@ -18,19 +18,26 @@ title: KW Ruby Developers
         = link_to "Join us!", "https://www.meetup.com/kw-ruby-on-rails/", class: "btn hero-link"
 
 %section.container
-  .row.py-5
-    .offset-md-2
-    .col
-      .media
-        %img.mr-3{src: 'http://photos2.meetupstatic.com/photos/event/4/2/6/highres_147421062.jpeg', alt: "Meetup", style: "width:30px;"}
-        .media-body
-          %h5.mt-0 Join us on MeetUp
-          = link_to 'KW Ruby Meetup', 'http://www.meetup.com/kw-ruby-on-rails/'
+  .row.pt-5
+    .offset-lg-2
 
-    .col
-      .media
-        .media-body
-          %h5.mt-0 Our Wiki
-          = link_to "Wiki", "/wiki"
+    .col-12.col-md.mb-4
+      .float-left{style: 'min-height:100px;'}
+        %img.mr-3.ml-4.float-right{src: '/images/meetup.svg', alt: "Meetup", style: "width:60px;"}
+      %h5.mt-0 Join us on Meetup
+      %p
+        See upcoming and past events in the
+        = link_to 'meetup page.', 'http://www.meetup.com/kw-ruby-on-rails/'
 
-    .offset-md-2
+    .col-12.col-md
+      .float-left{style: 'min-height:100px;'}
+        %img.mr-0.float-right{src: '/images/reddit.svg', alt: "Reddit", style: "width:100px; margin-top:-20px;"}
+
+      %h5.mt-0 Join us on Reddit
+      %p
+        Ask questions and chat with locale rubyists using the
+        = link_to 'forum', 'https://www.reddit.com/r/kwruby/'
+        and
+        = link_to 'chat.', 'https://www.reddit.com/chat/r/kwruby/channel/113489992_b94e00a0b7dd4d6232a7624cf3269c90c0fd70e2'
+
+    .offset-lg-2
