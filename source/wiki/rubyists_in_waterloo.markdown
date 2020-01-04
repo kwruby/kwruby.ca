@@ -25,6 +25,7 @@ title: Rubyists in Waterloo
 * [Lucas Arantes](https://lucasprag.com)
 * [Marco Imperatore](https://ca.linkedin.com/in/marcoimperatore)
 * [Matt Haliday](http://matthalliday.ca/)
+* [Mike Skeen](http://skeen.ca/)
 * [Mike van Lammeren](https://www.linkedin.com/in/mvanlamz/)
 * [Nick Mulder](https://about.me/nickmulder/)
 * [Ralph Janke](https://twitter.com/RalphJanke)
