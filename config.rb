@@ -75,12 +75,12 @@ configure :build do
   activate :minify_javascript
   activate :asset_hash
   activate :sprockets
-
-  activate :favicon_maker, icons: {
-    'logo/current.png' => [
-      { icon: 'favicon.ico', size: '64x64,32x32,24x24,16x16' }
-    ]
-  }
+  # TODO: reactivate when we have a new logo
+  # activate :favicon_maker, icons: {
+  #   'logo/current.png' => [
+  #     { icon: 'favicon.ico', size: '64x64,32x32,24x24,16x16' }
+  #   ]
+  # }
 
   # Use relative URLs
   # activate :relative_assets

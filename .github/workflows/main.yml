@@ -1,0 +1,27 @@
+name: Middleman
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@master
+      - name: Setup Ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '2.6'
+      - name: Install bundler
+        run: gem install bundler:2.0.2
+      - name: Install bundled gems
+        run: bundle install
+      - name: Build site
+        run: bundle exec middleman build
+      - name: Publish site
+        uses: maxheld83/ghpages@v0.2.1
+        env:
+          GH_PAT: ${{ secrets.SECRET_DEPLOY_KEY }}
+          BUILD_DIR: ./build
