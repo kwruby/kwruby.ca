@@ -3,6 +3,7 @@ title: Companies Using Ruby in Waterloo
 ---
 
 * [ApplyBoard](https://www.applyboard.com/ca/)
+* [Axonify](https://axonify.com/)
 * [Chalk](https://chalk.com)
 * [Crankworks](https://crankworks.ca/)
 * [eSentire](https://www.esentire.com/)
