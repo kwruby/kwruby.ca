@@ -14,6 +14,7 @@ title: Companies Using Ruby in Waterloo
 * [Karos](http://karos.ca)
 * [Kiiah](http://www.kiiah.com)
 * [Lockedup](http://lockedup.ca/)
+* [MealSuite](https://www.mealsuite.com/)
 * [Miovision](https://miovision.com/)
 * [Printchomp](https://www.printchomp.com/)
 * [Shopify](https://www.shopify.ca/)
