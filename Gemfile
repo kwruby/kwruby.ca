@@ -9,7 +9,7 @@ gem 'middleman-livereload', '~> 3.1.0'
 
 gem 'middleman-blog',          '~> 3.5.3'
 gem 'middleman-syntax',        '~> 2.0.0'
-gem 'redcarpet',               '~> 3.1.2'
+gem 'redcarpet',               '~> 3.5.1'
 gem 'middleman-deploy',        '~> 0.3.0'
 # gem "middleman-favicon-maker"
 
